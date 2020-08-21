@@ -87,12 +87,12 @@
 
 
   .three-grid .fa{
-      justify-content: center;
-      align-items: center;
-      font-size: 5em;
-      margin:0 auto;
-      color:var(--primary-color);
-      padding-bottom: 20px;
+      justify-content: center!important;
+      align-items: center!important;
+      font-size: 5em!important;
+      margin:0 auto!important;
+      color:var(--primary-color)!important;
+      padding-bottom: 20px!important;
   }
 
   .three-grid p{
