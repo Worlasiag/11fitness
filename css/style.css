@@ -1,0 +1,376 @@
+/* CSS Document */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:coral;
+    --secondary-color:#000;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.intro{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background: url(../images/w1.jpg)  no-repeat;
+    opacity: 0.9;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.intro-content h1{
+    padding-top: 250px;
+    font-size: 10em;
+    color:var(--primary-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.btna{
+    display: inline-block;
+    color:#fff;
+    background-color:var(--primary-color);
+    border:3px solid #fff;
+    margin: 20px;
+    border-radius: 0%;
+    padding:10px 20px;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+.btna:hover{
+    color:var(--primary-color);
+    background-color: #fff;
+    text-decoration: none;
+}
+
+
+.right{
+    float: right;
+}
+
+
+.progress-container {
+	width: 100%;
+	position:absolute;
+	z-index:2;
+	height: 3px;
+	background:transparent;
+  }
+
+  /* The progress bar (scroll indicator) */
+  .progress-bar {
+	height: 3px;
+	background: var(--primary-color);
+	width: 0%;
+  }
+
+.three-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    padding:50px 100px;
+    text-align: center;
+}
+
+
+.three-grid .fa{
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    margin:0 auto;
+    color:var(--primary-color);
+    padding-bottom: 20px;
+}
+
+.three-grid p{
+    text-align: left;
+}
+
+
+.five-grid{
+    /* display: grid;
+    width: 100%;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr; */
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    background:var(--secondary-color);
+    color:var(--primary-color);
+
+}
+
+.five-grid div {
+    flex:1;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.five-grid div:hover{
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.section-three{
+    height:500px;
+    width: 100%;
+    background: url(../images/action-athlete-barbell-841130.jpg)no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.two-grid{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.two-grid img{
+width: 100%;
+    height:400px;
+    cursor:pointer;
+}
+
+/* .two-grid:nth-child(odd){
+    background: var(--primary-color);
+} */
+
+.section-five{
+    height:500px;
+    width: 100%;
+    background: url(../images/active-athlete-beautiful-1480520.jpg)no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.w3-modal{
+    background-color: rgba(0,0,0,0.9);
+    width: 100%;
+    height: 100vh;
+}
+
+.modal-grid{
+/*
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+*/
+    padding: 30px 30px 20px 30px;
+}
+
+.modal-grid img{
+    height: 200px;
+    cursor: pointer;
+}
+
+
+.footer-grid .links a{
+    display: block;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    border:0.1px dotted #fff;
+}
+
+
+.footer a {
+    font-size: 1.2em;
+    text-align: center;
+
+}
+.footer a:hover{
+    color:#fff;
+}
+
+.social-media .fab{
+    font-size: 1.2em;
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.social-media .fab:hover{
+    color: #fff;
+}
+
+/*ABOUT PAGE */
+#about .two-grid img{
+    width: 100%;
+    height:400px;
+    cursor:pointer;
+}
+.about-bg-one{
+    background: url(../images/active-activity-beautiful-2247179.jpg)no-repeat center center;
+    height: 500px;
+    /* background-attachment: fixed; */
+    background-size: cover;
+}
+.about-bg-two{
+    background: url(../images/active-activity-beautiful-2247179.jpg)no-repeat center center;
+    height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.team{
+    background: #fff;
+}
+
+.team-section{
+    display: flex;
+    padding: 10px;
+}
+
+.team-section div{
+    background: #fff;
+    flex: 1;
+    margin: 5px;
+}
+
+.team-section  img{
+    width: 100%;
+    height:200px;
+}
+
+
+.team h2{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.team p{
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+
+/*SERVICES */
+
+.servicesbg{
+    height:500px;
+    background: url(../images/abdominal-exercise-adult-athlete-864091.jpg)no-repeat center center;
+    background-size: cover;
+}
+
+.weightloss{
+    display: flex;
+    padding:30px;
+    background: var(--secondary-color);
+    color:var(--primary-color);
+    align-items: center;
+    border-top:2px solid var(--primary-color);
+}
+
+.weightloss div{
+    flex:1;
+    margin:10px;
+}
+
+.weightloss div h1{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+
+.bodybuilding{
+    display: flex;
+    padding:30px;
+    color: var(--secondary-color);
+    background:var(--primary-color);
+    align-items: center;
+}
+
+.bodybuilding div{
+    flex:1;
+    margin:10px;
+}
+
+.bodybuilding div h1{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+
+.diet{
+    display: flex;
+    padding:30px;
+    background: var(--secondary-color);
+    color:var(--primary-color);
+    align-items: center;
+}
+
+.diet div{
+    flex:1;
+    margin:10px;
+}
+
+.diet div h1{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+/*CONTACT*/
+.contact-grid{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+        padding :20px;
+        grid-column-gap: 20px;
+     align-content: center;
+}
+
+
+.contactbg{
+    height:500px;
+    background: url(../images/w5.jpg)no-repeat center center;
+    background-size: cover;
+}
+
+.contact-grid form label{
+    display: block;
+}
+.contact-grid form{
+    padding:20px;
+    background: var(--primary-color);
+}
+.contact-grid form input,textarea{
+    width:100%;
+    padding:10px;
+}
+
+.contact-grid .contact{
+    padding:20px;
+    background:var(--secondary-color);
+    color:var(--primary-color);
+    text-align: center;
+}
+
+.contact-grid form .submit{
+    background: var(--secondary-color);
+    color:var(--primary-color);
+    border:none;
+}
