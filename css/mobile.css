@@ -27,8 +27,8 @@
   }
 
   .intro-content h1{
-      padding-top: 250px;
-      font-size: 5em!important;
+      padding-top: 150px;
+      font-size: 4em!important;
       color:var(--primary-color);
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       text-transform: uppercase;
